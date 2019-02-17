@@ -1,2 +1,3 @@
 # type-checked
-Check types of values with flow and typescript support
+
+Check type of value with flow and typescript support
