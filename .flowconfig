@@ -1,0 +1,24 @@
+[ignore]
+
+[include]
+
+[libs]
+
+[lints]
+unclear-type=error
+sketchy-null=error
+sketchy-number=error
+nonstrict-import=error
+deprecated-utility=error
+untyped-type-import=error
+unnecessary-invariant=error
+unsafe-getters-setters=error
+unnecessary-optional-chain=error
+
+[options]
+suppress_comment= \\(.\\|\n\\)*\\$ExpectError
+
+include_warnings=true
+
+[strict]
+untyped-import
