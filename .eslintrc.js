@@ -18,6 +18,10 @@ const config = {
     'linebreak-style': ['error', 'unix'],
     quotes: ['error', 'single', { avoidEscape: true }],
     semi: ['error', 'always'],
+    'no-unused-vars': [
+      'error',
+      { vars: 'all', args: 'all', ignoreRestSiblings: true },
+    ],
   },
 };
 
