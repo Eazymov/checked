@@ -1,0 +1,9 @@
+/* @flow strict */
+import isDef from '.';
+
+declare var arg: mixed;
+declare var undef: void;
+
+if (!isDef(arg)) {
+  undef = arg;
+}
