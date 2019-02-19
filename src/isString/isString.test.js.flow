@@ -1,0 +1,9 @@
+/* @flow strict */
+import isString from '.';
+
+declare var arg: mixed;
+declare var str: string;
+
+if (isString(arg)) {
+  str = arg;
+}
