@@ -1,5 +1,6 @@
 {
   "hooks": {
+    "commit-msg": "commitlint -e",
     "pre-commit": "yarn audit && yarn lint:staged && yarn test"
   }
 }
