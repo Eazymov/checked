@@ -1,0 +1,9 @@
+/* @flow strict */
+import isNull from '.';
+
+declare var arg: mixed;
+declare var _null: null;
+
+if (isNull(arg)) {
+  _null = arg;
+}
