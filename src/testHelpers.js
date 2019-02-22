@@ -4,6 +4,7 @@ export const values = {
   nonEmptyString: 'string',
   emptyString: '',
   number: 123,
+  boolean: true,
   _NaN: NaN,
   _undefined: undefined,
   _null: null,

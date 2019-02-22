@@ -1,0 +1,9 @@
+/* @flow strict */
+import isBool from '.';
+
+declare var arg: mixed;
+declare var boolean: boolean;
+
+if (isBool(arg)) {
+  boolean = arg;
+}
