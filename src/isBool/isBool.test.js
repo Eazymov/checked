@@ -4,13 +4,13 @@ import { values, expectChecksToBe } from '../testHelpers';
 
 describe('isBool', () => {
   test('returns true for boolean', () => {
-    const { boolean } = values;
+    const { _true, boolean } = values;
 
-    expectChecksToBe(isBool, { boolean }, true);
+    expectChecksToBe(isBool, { _true, boolean }, true);
   });
 
   test('returns false for non-boolean', () => {
-    const { boolean, ...rest } = values;
+    const { _true, boolean, ...rest } = values;
 
     expectChecksToBe(isBool, rest, false);
   });
