@@ -1,0 +1,9 @@
+/* @flow strict */
+import isFalse from '.';
+
+declare var arg: mixed;
+declare var _false: false;
+
+if (isFalse(arg)) {
+  _false = arg;
+}
