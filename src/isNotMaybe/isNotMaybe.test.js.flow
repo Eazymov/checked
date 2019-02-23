@@ -1,0 +1,9 @@
+/* @flow strict */
+import isNotMaybe from '.';
+
+declare var arg: mixed;
+declare var maybe: null | void;
+
+if (!isNotMaybe(arg)) {
+  maybe = arg;
+}
