@@ -13,5 +13,6 @@ export { default as isString } from './isString';
 export { default as isNumber } from './isNumber';
 export { default as isInteger } from './isInteger';
 export { default as isNotNull } from './isNotNull';
+export { default as isNotMaybe } from './isNotMaybe';
 export { default as isPlainObject } from './isPlainObject';
 export { default as isEmptyString } from './isEmptyString';
