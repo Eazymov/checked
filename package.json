@@ -1,6 +1,6 @@
 {
   "name": "checked",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Check type of value with flow and typescript support",
   "main": "cjs/index.js",
   "module": "es/index.js",
