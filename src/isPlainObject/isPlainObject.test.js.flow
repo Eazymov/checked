@@ -1,0 +1,9 @@
+/* @flow strict */
+import isPlainObject from '.';
+
+declare var arg: mixed;
+declare var obj: {};
+
+if (isPlainObject(arg)) {
+  obj = arg;
+}
