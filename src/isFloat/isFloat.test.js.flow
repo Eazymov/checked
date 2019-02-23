@@ -1,0 +1,9 @@
+/* @flow strict */
+import isFloat from '.';
+
+declare var arg: mixed;
+declare var num: number;
+
+if (isFloat(arg)) {
+  num = arg;
+}
