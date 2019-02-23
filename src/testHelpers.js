@@ -3,7 +3,8 @@
 export const values = {
   nonEmptyString: 'string',
   emptyString: '',
-  number: 123,
+  integer: 1,
+  float: 1.5,
   booleanTrue: true,
   booleanFalse: false,
   _NaN: NaN,
