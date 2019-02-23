@@ -37,7 +37,7 @@ const config = {
   output: {
     file: 'dist/index.min.js',
     format: 'iife',
-    name: 'TypeChecked',
+    name: 'Checked',
     banner,
   },
   external: [...devDependencies],

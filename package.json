@@ -1,5 +1,5 @@
 {
-  "name": "type-checked",
+  "name": "checked",
   "version": "0.0.0",
   "description": "Check type of value with flow and typescript support",
   "main": "cjs/index.js",
@@ -13,7 +13,7 @@
     "LICENSE",
     "README.md"
   ],
-  "repository": "git@github.com:Eazymov/type-checked.git",
+  "repository": "git@github.com:Eazymov/checked.git",
   "keywords": [
     "javascript",
     "type",
@@ -26,9 +26,9 @@
     "email": "eazymovcode@gmail.com"
   },
   "bugs": {
-    "url": "https://github.com/Eazymov/type-checked/issues"
+    "url": "https://github.com/Eazymov/checked/issues"
   },
-  "homepage": "https://github.com/Eazymov/type-checked#readme",
+  "homepage": "https://github.com/Eazymov/checked#readme",
   "license": "MIT",
   "devDependencies": {
     "@babel/cli": "^7.2.3",
