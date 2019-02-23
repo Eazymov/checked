@@ -1,0 +1,12 @@
+/* @flow strict */
+import isArray from '.';
+
+declare var arg: mixed;
+declare var num: number;
+declare var array: number[];
+
+if (isArray(arg)) {
+  array = arg;
+
+  num = arg[0];
+}
