@@ -1,5 +1,7 @@
 /* @flow strict */
 
+class Test {}
+
 export const values = {
   nonEmptyString: 'string',
   emptyString: '',
@@ -13,6 +15,7 @@ export const values = {
   plainObject: {},
   array: [],
   _function: () => {},
+  classInstance: new Test(),
 };
 
 export function expectChecksToBe(
