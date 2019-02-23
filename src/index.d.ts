@@ -7,6 +7,7 @@ export { default as isFloat } from './isFloat';
 export { default as isArray } from './isArray';
 export { default as isFalse } from './isFalse';
 export { default as isUndef } from './isUndef';
+export { default as isMaybe } from './isMaybe';
 export { default as isObject } from './isObject';
 export { default as isString } from './isString';
 export { default as isNumber } from './isNumber';
