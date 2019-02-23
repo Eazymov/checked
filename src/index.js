@@ -9,3 +9,4 @@ export { default as isFalse } from './isFalse';
 export { default as isUndef } from './isUndef';
 export { default as isString } from './isString';
 export { default as isNumber } from './isNumber';
+export { default as isEmptyString } from './isEmptyString';
