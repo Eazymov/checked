@@ -4,6 +4,7 @@ export { default as isNull } from './isNull';
 export { default as isBool } from './isBool';
 export { default as isTrue } from './isTrue';
 export { default as isFunc } from './isFunc';
+export { default as isArray } from './isArray';
 export { default as isFalse } from './isFalse';
 export { default as isUndef } from './isUndef';
 export { default as isString } from './isString';
