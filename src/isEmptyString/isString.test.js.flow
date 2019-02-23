@@ -1,0 +1,9 @@
+/* @flow strict */
+import isEmptyString from '.';
+
+declare var arg: mixed;
+declare var emtpyStr: '';
+
+if (isEmptyString(arg)) {
+  emtpyStr = arg;
+}
